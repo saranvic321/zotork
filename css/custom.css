@@ -45,7 +45,7 @@
 	--text-color				: #A7AABB;
 	--bg-color					: #060606;
 	--accent-color				: #ffce2d;
-	--accent-secondary-color	: #538E32;
+	--accent-secondary-color	: #3d721e;
 	--divider-color				: #FFFFFF0F;
 	--dark-divider-color		: #FFFFFF33;
 	--error-color				: rgb(230, 87, 87);
@@ -211,7 +211,7 @@ body{
 .btn-default{
 	position: relative;
 	display: inline-block;
-	background: linear-gradient(to right, var(--accent-color) 0%, var(--accent-secondary-color) 50%, var(--accent-color) 100%);
+	background: linear-gradient(to right, #c19b1c 0%, #275b0a 50%, var(--accent-color) 100%);
 	background-size: 200% auto;
     border-radius: 100px;
     color: var(--primary-color);
